@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/saravanakkumar/goWeb/helpers"
 )
 
 func main() {
-	firstfamily := helpers.family{"saravana", "arun", "prajna", "pranika"}
+	firstfamily := helpers.Family{"saravana", "arun", "prajna", "pranika"}
 	fmt.Println(firstfamily)
 }
