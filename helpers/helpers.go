@@ -1,8 +1,8 @@
 package helpers
 
 type Family struct {
-	father string
-	mother string
-	kid1   string
-	kid2   string
+	Father string
+	Mother string
+	Kid1   string
+	Kid2   string
 }
