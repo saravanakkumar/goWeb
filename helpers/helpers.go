@@ -1,8 +1,8 @@
 package helpers
 
 type Family struct {
-	Father string
-	Mother string
-	Kid1   string
-	Kid2   string
+	FatherName string `json:"father_name"`
+	MotherName string `json:"mother_name"`
+	Kid1Name   string `json:"kid1_name"`
+	Kid2Name   string `json:"kid2_name"`
 }
